@@ -1,0 +1,28 @@
+from selenium.webdriver.common.by import By
+
+class Locators:
+    MY_ACCOUNT_BUTTON = (By.XPATH, "/html/body/div[1]/div/header/nav/a/p")
+    REG_FORM_BUTTON = (By.XPATH,"/html/body/div[1]/div/main/div/div/p[1]/a")
+    NAME =(By.XPATH,"html/body/div/div/main/div/form/fieldset/div/div/input")
+    EMAIL = (By.XPATH,"html/body/div/div/main/div/form/fieldset[2]/div/div/input")
+    PASSWORD = (By.NAME, "Пароль")
+    REG_BUTTON = (By.XPATH, "html/body/div/div/main/div/form/button")
+    ERROR_MESSAGE = (By.XPATH, "html/body/div[1]/div/main/div/form/fieldset[3]/div/p")
+    LOGIN_FORM = (By.XPATH, "html/body/div[1]/div/main/div/h2")
+    LOGIN_TO_YOUR_ACCOUNT_BUTTON = (By.XPATH, "html/body/div[1]/div/main/section[2]/div/button")
+    LOGIN_BUTTON = (By.XPATH, "html/body/div[1]/div/main/div/form/button")
+    PLACE_ORDER_BUTTON = (By.XPATH, "html/body/div[1]/div/main/section[2]/div/button")
+    EMAIL_LOGIN_PAGE = (By.XPATH, "html/body/div[1]/div/main/div/form/fieldset[1]/div/div/input")
+    ENTER_BUTTON = (By.XPATH, "html/body/div/div/main/div/form/button")
+    ENTER_VIA_REG_FORM = (By.XPATH, "html/body/div[1]/div/main/div/div/p/a")
+    PASWORD_RESET_PAGE_ENTER_BUTTON = (By.XPATH, "html/body/div[1]/div/main/div/div/p/a")
+    PROFILE = (By.XPATH, "html/body/div[1]/div/main/div/nav/ul/li[1]/a")
+    CONSTRUCTOR_BUTTON = (By.XPATH, "html/body/div[1]/div/header/nav/ul/li[1]/a/p")
+    EXIT_BUTTON = (By.XPATH, "html/body/div[1]/div/main/div/nav/ul/li[3]/button")
+    BUNS_BUTTON = (By.XPATH, "html/body/div[1]/div/main/section[1]/div[1]/div[1]")
+    BUNS_SECTION_TEXT = (By.XPATH, "html/body/div[1]/div/main/section[1]/div[2]/h2[1]")
+    SOUS_SECTION_TEXT = (By.XPATH, "html/body/div[1]/div/main/section[1]/div[2]/h2[2]")
+    SOUS_BUTTON = (By.XPATH, "html/body/div[1]/div/main/section[1]/div[1]/div[2]")
+    FILLING_BUTTON = (By.XPATH, "html/body/div[1]/div/main/section[1]/div[1]/div[3]")
+    FILLING_SECTION_TEXT = (By.XPATH, "html/body/div[1]/div/main/section[1]/div[2]/h2[3]")
+
